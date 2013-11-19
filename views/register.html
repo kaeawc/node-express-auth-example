@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Node.JS Authentication Example</title>
+  </head>
+  <body>
+
+    <div>
+      <a href="/login">Login</a> |
+      <a href="/register">Register</a> |
+      <a href="/logout">Logout</a> |
+      <a href="/dashboard">Dashboard</a>
+    </div>
+
+    <h2>Register a New Account Here.  Your password must be at least 6 characters.</h2>
+
+    <form action="/register" method="post">
+      <input type="text" name="email" placeholder="your.email@domain.com" />
+      <input type="password" name="password" placeholder="password" />
+      <input type="password" name="retypedPassword" placeholder="password" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
